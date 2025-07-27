@@ -16,8 +16,8 @@ I am a **SAP ABAP Developer** and **SAP MM Consultant** with expertise in **Spri
 
 ## 📫 How to reach me
 
-- Email: [your-email@example.com](mailto:tien.ngominh.3979@gmail.com)
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/tien-ngo-minh-898443269/)
+- Email: [My-email@Gmail.com](mailto:tien.ngominh.3979@gmail.com)
+- LinkedIn: [My LinkedIn Profile](https://www.linkedin.com/in/tien-ngo-minh-898443269/)
 
 ## 🔭 Current Projects
 
