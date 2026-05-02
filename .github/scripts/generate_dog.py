@@ -4,7 +4,7 @@ from datetime import date, timedelta
 import random
 
 # Kích thước mỗi ô contribution
-CELL_SIZE = 12
+CELL_SIZE = 36
 GAP = 2
 GRID_COLS = 53  # số tuần trong năm
 GRID_ROWS = 7   # các ngày trong tuần
@@ -54,7 +54,7 @@ def main():
     else:
         dog_img = Image.open(dog_path).convert('RGBA')
         # Resize nếu to quá
-        dog_img.thumbnail((CELL_SIZE-2, CELL_SIZE-2), Image.LANCZOS)
+        dog_img = dog_img.resize((CELL_SIZE+4, CELL_SIZE+4), Image.LANCZOS)  # Chó to gần bằng ô
 
     frames = []
     # Tổng số ô trên grid
@@ -82,7 +82,7 @@ def main():
         output,
         save_all=True,
         append_images=frames[1:],
-        duration=80,      # thời gian mỗi frame (ms)
+        duration=200,      # thời gian mỗi frame (ms)
         loop=0,
         disposal=2
     )
