@@ -4,8 +4,9 @@
 </p>
 
 <p align="center">
-  <!-- Cute dog working on computer -->
-  <img src="https://media.giphy.com/media/JIX9t2j0L1IJmgZgOQ/giphy.gif" width="180" alt="cute dog working"/>
+
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjU1ZGM5emFvNGV2YWF2bHljM3p5bTV1ZGN2MnYwM3ZmcmIxbWRmNCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Fu3OjBQiCs3s0ZuLY3/giphy.gif" width="180" alt="cute dog working"/>
+
 </p>
 
 ---
@@ -92,6 +93,5 @@ Off‑screen you’ll often find me walking my dog or tending my little indoor g
 </p>
 
 <p align="center">
-  <!-- Puppy with plant -->
-  <img src="https://media.giphy.com/media/dQgHlkLNE7B4N9FIHB/giphy.gif" width="200" alt="puppy with plant"/>
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDM4cDhhY3hvbDRuZHZxNmRvM3NxMDJkNjRwN3NsOWVsaXBka2JzcyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/KoQrGaNA85sxmSj7FY/giphy.gif" width="200" alt="puppy with plant"/>
 </p>
