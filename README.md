@@ -1,6 +1,6 @@
 <!-- Nature & Puppy Typing Header -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3500&pause=1000&color=6DB33F&center=true&vCenter=true&width=700&lines=Hi+there+%F0%9F%90%BE%2C+I'm+Ng%C3%B4+Minh+Ti%E1%BA%BFn;IT+Professional+%7C+Business+Analyst;SAP+MM%2FSD+%26+ABAP+Practitioner;Dog+lover+%F0%9F%90%B6+%7C+Nature+enthusiast+%F0%9F%8C%BF" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3500&pause=1000&color=6DB33F&center=true&vCenter=true&width=700&lines=Hi+there+%F0%9F%90%BE%2C+I'm+Ng%C3%B4+Minh+Ti%E1%BA%BFn;IT+Professional+%7C+Business+Analyst;SAP+MM%2FSD+%26+ABAP" alt="Typing SVG" />
 </p>
 
 <p align="center">
