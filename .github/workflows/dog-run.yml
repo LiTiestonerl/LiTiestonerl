@@ -1,0 +1,34 @@
+name: Generate Dog Running on Contribution Grid
+
+on:
+  schedule:
+    - cron: '0 0 * * *'   # mỗi ngày lúc 00:00 UTC
+  workflow_dispatch:       # cho phép chạy tay
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install Pillow
+
+      - name: Run script
+        run: python .github/scripts/generate_dog.py
+
+      - name: Commit and push GIF
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/dog-run.gif
+          git diff --staged --quiet || (git commit -m "Update dog running animation" && git push)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -9,6 +9,10 @@
 
 </p>
 
+<p align="center">
+  <img src="output/dog-run.gif" alt="My dog runs through my contributions" width="600"/>
+</p>
+
 ---
 
 ### 🌼 About Me
