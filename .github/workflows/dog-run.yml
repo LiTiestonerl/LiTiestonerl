@@ -2,8 +2,11 @@ name: Generate Dog Running on Contribution Grid
 
 on:
   schedule:
-    - cron: '0 0 * * *'   # mỗi ngày
-  workflow_dispatch:       # chạy tay
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write    # 👈 Dòng này cực kỳ quan trọng
 
 jobs:
   build:
